@@ -1,4 +1,4 @@
 (executable
  (public_name hello)
  (name main)
- (libraries hello))
+ (libraries hello sexplib))
