@@ -1,2 +1,4 @@
 (library
- (name hello))
+ (name hello)
+ (preprocess (pps ppx_show))
+ (libraries ppx_show.runtime))
